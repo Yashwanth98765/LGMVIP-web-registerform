@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background:rgb(194, 187, 190);
+  }
+  .container h1 {
+    text-align: center;
+    margin:20px;
+    font-size: 40px;
+  }
+  .enrollment{
+    margin:20px;
+  }
+  .enrollment input{
+    padding: 12px;
+    margin: 9px;
+    border-radius:9px;
+    border: none;
+  }
+  label{
+    font-size:20px;
+  }
+  
+.name{
+    display: flex;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    content: 'Select Image';
+    display: inline-block;
+    background: white;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+  }
+  input{
+    margin-left: 10px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    display: flex;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .vr {
+    border-left: 4px solid rgb(80, 132, 98);
+  }
+  
+  .Enrolled {
+    margin-top: 2rem;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  .image>img {
+    width: 120px;
+    margin: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 7px;
+  }
+  
+  .text {
+    margin: 10px;
+  }
+  

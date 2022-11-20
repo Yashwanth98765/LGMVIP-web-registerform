@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+      <div class="container">
+        <h1>Student Enrollment Form</h1>
+        <div class="main">
+            <div class="left">
+                <form class="enrollment">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" placeholder="enter your name" required>
+                  <br>
+                  <br>
+
+                  <label for="Email">Email: </label>
+                  <input type="email" id="Email" placeholder="mail-id" name="Email">
+                  <br><br>
+  
+                  <label for="website">Website: </label>
+                  <input type="text" id="website" placeholder="www.com" name="website">
+                  <br><br>
+  
+                  <label for="Image">Image: </label>
+                  <input type="file" id="Image" name="Image" class=" custom-file-input" onchange="image(event)">
+  
+                  <label for="gender"><p>Gender :</p>
+                  <input type="radio" id="male" name="male">
+                  <label for="male">Male</label>
+                  <input type="radio" id="female" name="female">
+                  <label for="female">Female</label>
+                  <input type="radio" id="others" name="others">
+                  <label for="female">Others</label>
+                  </label>
+
+                  <label for="Skills" class="skills">
+                    <p>Skills: </p>
+                    <input type="checkbox" id="html" value="HTML">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css" value="CSS">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" id="Javascript" value="Javascript">
+                    <label for="js">Javascript</label>
+                    <br><br>
+                </label>
+                <br>
+                <div class="btn">
+                <button type="button" id="btn" class="button"> ENROLL NOW</button>  
+                <button type="reset" class="button"> RESET </button>              
+                </div>
+                </form>
+            </div>
+            <div class=" vr"></div>
+            <div class="right">
+            <h1 class="Enrolled">ENROLLED LIST</h1>
+            <div class="card"></div>
+            </div>
+        </div>
+      </div>
+      
+
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
